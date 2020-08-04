@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dropdown</title>
+
+	
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+	body {
+    position: relative;
+    background-image: url("https://wallpapercave.com/wp/wp2555019.jpg"); 
+    background-repeat: no-repeat;
+}
+.navbar{
+		
+		padding: 10px;
+          
+          }
+		.navbar ul{
+			display: inline;
+		}
+		.navbar li{
+			display: inline;
+			margin-left: 40px;
+			font-size: 25px;
+		}
+		.navbar a{
+			text-decoration: none;
+			color:white;
+			padding: 4px;
+			}
+	.navbar a:hover{
+		background-color:white;
+		color:#00a65a;
+
+	}
+		
+
+  .submenu-1{
+  	display: none;
+  }
+  .navbar li:hover .submenu-1{
+  	display: block;
+  	position: absolute;
+  	background-color: #00a65a;
+  	margin-top: 18px;
+  	margin-left: 100px;
+  	margin-top: 18px;
+
+
+  }
+   .navbar li:hover .submenu-1 ul{
+    display: inline-block;
+    line-height: 2.5em;
+    padding: 0px;
+
+
+   }
+   .navbar li:hover .submenu-1 ul li{
+   	display: block;
+   	font-size: 16px;
+   	margin: 0px;
+
+   }
+   .navbar li:hover .submenu-1 ul li a{
+   	color: white;
+
+   }
+   .navbar li:hover .submenu-1 ul li a:hover{
+   	color: black;
+   }
+
+   .sidebar{
+		border:2px #00a65a solid;
+		margin-top: 50px;
+		border-radius: 10px;
+		width: 150px;
+	}	
+	.sidebar ul{
+		list-style: none;
+		line-height: 2.5em;
+		font-size: 20px;
+
+	
+	}
+	.sidebar li{
+		border-bottom: 1px #00a65a;
+	}
+	.sidebar li:last-child{
+		border-bottom: none;
+
+	}
+	.sidebar a{
+		text-decoration: none;
+		color: white;
+		padding: 10px;
+
+	}
+	.submenu-2{
+		display: none;
+	}
+	.hover:hover .submenu-2{
+		display: block;
+		position: absolute;
+		background-color: #00a65a;
+		margin-left: 90px;
+		margin-top: -30px;
+	}
+	.submenu-3{
+		display: none;
+	}
+	.hover:hover .submenu-3{
+		display: block;
+		position: absolute;
+		background-color: #00a65a;
+		margin-left: 90px;
+		margin-top: -30px;
+	}
+		
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<ul>
+			<li>
+				<a href="#"><span><i></span></i>Home</a>
+				<div class="submenu-1">
+					<ul>
+						<li> <a href=" "> Computer</li></a>
+						<li class="hover">
+							<a href=" ">Bluetooth</a>
+							
+							<div class="submenu-3">
+								<ul>
+						<li> <a href=" "> Speaker</li></a>
+						<li><a href=" ">Headphone</li></a>
+					    <li><a href=" ">Earphone</li></a>
+					</li>
+				</div>
+
+					    <li><a href=" ">Printer</li></a>
+						<li class="hover">
+							<a href=""> Mobile</a>
+							<div class="submenu-2">
+								<ul>
+						<li> <a href=" "> Samsung</li></a>
+						<li><a href=" ">Motorola </li></a>
+					    <li><a href=" ">Vivo</li></a>
+					</li>
+				</div>
+						</ul>
+					</div>
+				</li>
+				<li>
+                   <a href="#"><span><i ></i></span>About</a></li>
+                   <li>
+                   <a href="#"><span><i ></i> </span>Service</a></li>
+                   <li>
+                   <a href="#"><span><i ></i> </span>Products</a></li>
+                   <li>
+                   <a href="#"><span><i ></i> </span>Contact</a></li>
+</div>
+<div class="sidebar">
+	<ul>
+		<li><a href="">Home</a>  </li>
+		<li><a href="">About</a>  </li>
+		<li><a href="">Services</a>  </li>
+		<li><a href="">Product</a>  </li>
+		<li><a href="">Contact</a>  </li>
+
+
+	</ul>
+</div>
+
+
+
+
+</body>
+</html>
